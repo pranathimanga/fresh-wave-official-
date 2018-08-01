@@ -1,0 +1,184 @@
+@font-face{
+    font-family:quicksand;
+    src: url(quicksand.otf);
+    font-weight:normal;
+  }
+
+  body{
+          margin: 0;
+          min-width: 980px;
+          padding: 0;
+  }
+
+  p{
+          margin: 0 0 20px 0;
+  }
+
+  p, ul{
+          font-family: quicksand;
+          font-size-adjust:1.688;
+          font-weight:350;
+          font-style:normal;
+  }
+
+  img{
+          border: 0;
+          width: 100%;
+  }
+
+  h1, #pixels{
+          font-family: quicksand;
+          font-size-adjust:0.40;
+          font-weight:700;
+          font-style:normal;
+  }
+
+  h2 {
+          font-family: quicksand;
+          font-size-adjust:0.531;
+          font-weight:500;
+          font-style:normal;
+          text-align: center;
+  }
+
+  #header h1, #pixels{
+          color: #48941A;
+  }
+
+  .float-left{
+          float: left;
+          margin: 0 0 0 20px;
+  }
+
+  .float-right{
+          float: right;
+          margin: 0 20px 0 0;
+  }
+
+  .center{
+          font-size: 2.5em;
+          padding: 80px 0 0 0;
+          text-align: center;
+  }
+
+  #nav{
+          list-style: none;
+          position: fixed;
+          right: 20px;
+  }
+
+  #nav li{
+          margin: 0 0 15px 0;
+  }
+
+  #header, #intro, #second{
+          width: 100%;
+  }
+
+  #intro{
+          background:url(intro.png) 50% 0 no-repeat fixed;
+  		    background-size: cover;
+          color: white;
+          height: 700px;
+          margin: 0 auto;
+          padding: 0;
+          width: 100%;
+  }
+
+  #second{
+  	      background: url(logo.jpg) 50% 0 no-repeat fixed;
+  		    background-size: cover;
+          color: black;
+          height: 1500px;
+          margin: 0 auto;
+          overflow: hidden;
+          padding: 0;
+          width: 100%;
+  }
+
+  #third{
+  	      background: url(design5.png) 50% 0 no-repeat fixed;
+  		    background-size: cover;
+          color: white;
+          height: 1075px;
+          padding: 100px 0 0 0;
+          width: 100%;
+          overflow: hidden;
+          padding: 0;
+  }
+
+  #fourth{
+          background: url(design6.png) 50% 0 no-repeat fixed;
+          background-size: cover;
+          color: black;
+          height: 835px;
+          padding: 100px 0 0 0;
+          width: 100%;
+          overflow: hidden;
+          padding: 0;
+  }
+
+  #fifth {
+          background: url(thanks.png) 50% 0 no-repeat fixed;
+          background-size: cover;
+          height: 1350px;
+          padding: 100px 0 0 0;
+          width: 100%;
+          overflow: hidden;
+          padding: 0;
+          color: white;
+  }
+
+  #sixth{
+          background: url(donateBack.png) 50% 0 no-repeat fixed;
+          background-size: cover;
+          color: black;
+          height: 750px;
+          padding: 100px 0 0 0;
+          width: 100%;
+          overflow: hidden;
+          padding: 0;
+  }
+
+  #seven{
+          background: url(unnamed8.jpg) 50% 0 no-repeat fixed;
+          background-size: cover;
+          color: black;
+          height: 350px;
+          padding: 100px 0 0 0;
+          width: 100%;
+          overflow: hidden;
+          padding: 0;
+  }
+
+.story{
+          margin: 0 auto;
+          min-width: 980px;
+          overflow: auto;
+          width: 980px;
+}
+
+  .story .float-left, .story .float-right{
+          padding: 100px 0 0 0;
+          position: relative;
+          width: 350px;
+}
+
+.highlightit img{
+filter:progid:DXImageTransform.Microsoft.Alpha(opacity=100);
+-moz-opacity: 1;
+opacity: 1;
+border-radius: 100%;
+width:207px;
+}
+
+.highlightit:hover img{
+filter:progid:DXImageTransform.Microsoft.Alpha(opacity=50);
+-moz-opacity: 0.5;
+opacity: 0.5;
+ border-radius: 100%;
+}
+
+#donatetabs {
+  color: white;
+}
